@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+
+body{
+    background-color: black;
+    overflow: hidden;
+    font-family: 'Robot', sans-serif;
+}
+
+.antet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.start{
+    display: flex;
+}
+
+.burger{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: azure;
+}
+
+.logo a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a img{
+    height: 35px;
+    width: 35px;
+    margin-right: 7px;
+}
+
+.yut{
+    width: 50px;
+}
+
+.logo p{
+    font-size: 36px;
+}
+
+.middle{
+    display: flex;
+}
+
+.search{
+    display: flex;
+    height: 35px;
+}
+
+.firstpart {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-start-start-radius: 15px;
+    border-end-start-radius: 15px;
+    width: 600px;
+    height: 40px;
+    padding: 0px 15px;
+    justify-content: space-between;
+    border-right: 0px;
+    
+}
+
+button{
+    background-color: rgba(128, 128, 128, 0.361);
+    color: white;
+}
+
+button{
+    border: 1px solid;
+}
+
+.search button{
+    border-color: white;
+    border-end-end-radius: 15px;
+    border-start-end-radius: 15px;
+    width: 60px;
+    height: 40px;
+}
+
+.micro{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.end{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.account img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.end span{
+    padding-right: 10px;
+}
+
+input{
+    background-color: black;
+}
+
+.content{
+    display: flex;
+    padding-top: 20px;
+    position: relative;
+    z-index: 15;
+}
+
+aside{
+    height: max-content;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 20px;
+}
+
+.body{
+    width: 90%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.content .linie{
+    height: 1px;
+    background-color: rgb(39, 39, 39,0.8);
+    min-width: 90%;
+    display: block;
+    margin:auto;
+    margin: 10px;
+}
+
+.content a{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.content a p{
+    padding: 5px 0px 5px 20px;
+    font-size: 16px;
+}
+
+.content aside h2{
+    font-weight: 500;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+
+.atreiaparte h2 , .apatraparte h2 , .youtubecreation h2{
+    color: aliceblue;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.atreiaparte a img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.atreiaparte a p{
+    font-size: 15px;
+}
+
+.atreiaparte a span{
+    background-color: aqua;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    display: table;
+    margin-left:auto;
+}
+
+.info a p , .info2 a p{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.info , .info2{
+    width: 250px;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    word-spacing: 0px;
+}
+
+.creator p{
+    color: rgb(200, 195, 195 , 0.5);
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+
+.vidosuri{
+    padding: 30px 40px;
+}
+
+.vidosuri p{
+    color: white;
+}
+
+.preview img{
+    max-width: 350px;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.timer span{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 290px;
+    background-color: black;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.vidosuri .dot{
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.vidosuri{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+}
+
+.vidosuri div{
+    padding-top: 30px;
+}
+
+.vidosuri h6{
+    margin-top: -20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    max-width: 350px;
+    padding-bottom: 75px;
+    height: 50px;
+}
+
+.vidosuri div p{
+    padding-top: 5px;
+}
+
+.chanelimg img{
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+}
+
+.undervideo {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    margin-top: -80px;
+}
+
+.single .undervideo{
+    margin-top: -100px;
+}
+
+.single{
+    margin-top: -20px;
+}
+
+.playlist .preview span{
+    margin-top: -60px;
+    margin-left: 0px;
+    width: 350px;
+    height: 30px;
+    background-color: rgba(72, 147, 212, 0.358);
+}
+
+.playlist .textchanel p{
+    margin-left: -20px;
+}
+
+.textchanel img{
+    background-color: aliceblue;
+    width: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.vidosuri a .textchanel p{
+    font-size: 14px;
+}
+
+.vidosuri a{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.vidosuri a:hover{
+    background-color: gray;
+}
+
+.vidosuri a:hover img{
+    transform: scale(1.05);
+}
+
+.vidosuri a{
+    position: relative;
+}
+
+.antet .end{
+    padding-right: 150px;
+}
+
+.antet .end a{
+    padding-right: 10px;
+}
+
+.antet .start .burger{
+    padding-left: 20px;
+}
+
+.content a:hover{
+    background-color: gray;
+}
+
+.primaparte .home {
+    background-color: gray;
+    margin-right: -20px;
+    border-radius: 15px;
+}
+
+
+@media only screen and (max-width:1200px){
+    .antet .middle .firstpart{
+        max-width: 400px;
+        width: 100%;
+    }
+    .vidosuri a{
+        padding:10px;
+    }
+    .vidosuri a img{
+        transform: scale(1);
+    }
+    .vidosuri a:hover img{
+        transform: scale(1.02);
+    }
+
+}
+
+@media only screen and (max-width:992px){
+    .antet .middle .firstpart{
+        width: 200px;
+    }
+    .antet .middle .firstpart span{
+        margin-left: -25px;
+    }
+    .logo p{
+        font-size: 27px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .logo p{
+        font-size: 27px;
+    }
+    .antet .middle .firstpart{
+        width: 100px;
+    }
+    .antet .middle .firstpart span{
+        margin-left: -115px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .antet .middle .firstpart{
+        display: none;
+    }
+    .antet .middle .secondpart button{
+        border-radius: 15px;
+        width: 40px;
+        height: 35px;
+    }
+    .logo p{
+        font-size: 20px;
+    }
+    .content aside p{
+        display: none;
+    }
+    .atreiaparte , .apatraparte , .youtubecreation , .settings , .info , .info2 , .creator{
+        display: none;
+    }
+    .body div a{
+        scale: 0.9;
+    }
+}
+
+@media only screen and (max-width:476px){
+    .body div a{
+        scale: 0.8;
+    }
+}

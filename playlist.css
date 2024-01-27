@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+  }
+
+body{
+    background-color: black;
+    font-family: 'Robot', sans-serif;
+}
+
+.antet{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.start{
+    display: flex;
+}
+
+.burger{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: azure;
+}
+
+.logo a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a img{
+    height: 35px;
+    width: 35px;
+    margin-right: 7px;
+}
+
+.yut{
+    width: 50px;
+}
+
+.logo p{
+    font-size: 36px;
+}
+
+.middle{
+    display: flex;
+}
+
+.search{
+    display: flex;
+    height: 35px;
+}
+
+.firstpart {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-start-start-radius: 15px;
+    border-end-start-radius: 15px;
+    width: 600px;
+    height: 40px;
+    padding: 0px 15px;
+    justify-content: space-between;
+    border-right: 0px;
+    
+}
+
+button{
+    background-color: rgba(128, 128, 128, 0.361);
+    color: white;
+}
+
+button{
+    border: 1px solid;
+}
+
+.search button{
+    border-color: white;
+    border-end-end-radius: 15px;
+    border-start-end-radius: 15px;
+    width: 60px;
+    height: 40px;
+}
+
+.micro{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.end{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.account img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.end span{
+    padding-right: 10px;
+}
+
+input{
+    background-color: black;
+}
+
+
+.inputvideo img{
+    max-width: 1250px;
+    width: 100%;
+}
+
+.inputvideo{
+    padding: 30px 0px 0px 70px;
+    position: relative;
+}
+
+.downmenu{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    width: 100%;
+}
+
+.downmenu .flex{
+    position: absolute;
+    display: flex;
+}
+
+.interactions2{
+    display: flex;
+}
+
+.flex , .flex2{
+    margin-top: -37px;
+}
+
+.downmenu .videocursor span{
+    background-color: gray;
+    width: 1210px;
+    height: 2px;
+    border-radius: 7px;
+    display: block;
+    margin: -40px 20px 0px 20px;
+    
+}
+
+.interactions , .soundreg{
+    color: white;
+    margin-top: 10px;
+    
+}
+
+.interactions span{
+    width: 50px;
+    padding-left: 20px;
+}
+
+input{
+    color: aliceblue;
+}
+
+.soundreg{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.soundreg input{
+    visibility: hidden;
+    width: 70px;
+    /* border-radius: 15px;
+    height: 10px; */
+}
+
+.soundreg:hover input{
+    visibility: visible;
+}
+
+.timer{
+    margin-top: 15px;
+    margin-left: -60px;
+}
+
+p{
+    color: white;
+}
+
+.first:hover .timer{
+    margin-left: 5px;
+}
+
+.first{
+    display: flex;
+}
+
+.downmenu{
+    max-width: 1250px;
+    width: 100%;
+}
+
+.flex2{
+    display: flex;
+    margin-left: -300px;
+    padding-right: 15px;
+}
+
+.flex2 a span{
+    padding: 7px 7px;
+}
+
+.mix h3{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.mix p{
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.firstlayout{
+    display: flex;
+}
+
+.moremusic{
+    margin: 30px 0px 0px 70px;
+    background-color: gray;
+    max-width: 400px;
+    width: 100%;
+    height: 64vh;
+    border-radius: 15px;
+}
+
+.mymix{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.close{
+    display: flex;
+    align-items: center;
+}
+
+.recomendation a img{
+    width: 130px;
+    height: 70px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+.scroll{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 65vh;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.recomendation .scroll{
+    background-color: rgb(46, 45, 45);
+}
+
+.recomendation a{
+    display: flex;
+    padding: 10px 0px;
+}
+
+.recomendation a p , h6{
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.recomendation a h6{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.recomendation a .txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.recomendation a:hover{
+    transform: scale(1.05);
+    background-color: rgb(69, 67, 67);
+}
+
+.flex2 span:hover{
+    transform: scale(1.2);
+}
+
+.interactions span:hover{
+    transform: scale(1.2);
+}
+
+.secondlayout{
+    margin-left: 75px;
+    padding-top: 15px;
+}
+
+.hashtag{
+    display: flex;
+}
+
+.hashtag p{
+    padding: 0px 5px;
+    font-size: 12px;
+    color: purple;
+}
+
+.accname img{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.accname{
+    display: flex;
+    padding-top: 15px;
+}
+
+.namecanal h3{
+    color: #ccc;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.namecanal p{
+    font-size: 11px;
+}
+
+.namecanal{
+    padding-left: 15px;
+}
+
+.subscribe button{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+.subscribe{
+    padding-left: 15px;
+}
+
+.videoname h3{
+    color: #ccc;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.videoname{
+    padding-top: 10px;
+}
+
+.undervideo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondlayout{
+    max-width: 1240px;
+    width: 100%;
+}
+
+.like button{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.like button span{
+    padding: 5px 10px;
+}
+
+.like button p{
+    border-right: 2px solid white;
+    padding-right: 5px;
+}
+
+.share a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(61, 60, 60);
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.share span , .download span , .addtoplaylist span{
+    color: white;
+    padding-right: 10px;
+}
+
+.morevideooptions{
+    display: flex;
+}
+
+.download a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 35px;
+    background-color: rgb(61, 60, 60);
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.addtoplaylist a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 35px;
+    background-color: rgb(61, 60, 60);
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.videoinfo{
+    background-color: rgb(66, 65, 65);
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.videoinfo p{
+    font-weight: 500;
+    padding: 5px 0px;
+}
+
+.commentsection h4{
+    color: white;
+    font-size: 16px;
+}
+
+.colesss{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.sort span{
+    color: white;
+}
+
+.sort{
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.sort p{
+    font-size: 16px;
+}
+
+.profilepic img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.write input{
+    color: #ccc;
+    border-bottom: 1px solid gray;
+    width: 1150px;
+    margin-left: 15px;
+}
+
+.write__comment{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.comments{
+    padding-top: 15px;
+}
+
+.profilepiccoments img{
+    width: 35px;
+    height: 35px;
+    border-radius: 15px;
+}
+
+.likeundervideo button{
+    display: flex;
+    align-items: center;
+    border: 0px;
+    background-color: transparent;
+}
+
+.comment{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.comment h6{
+    color: white;
+    padding-left: 0px;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.terra{
+    display: flex;
+    padding: 20px 5px;
+}
+
+.comment h6 span{
+    color: gray;
+    font-size: 12px;
+}
+
+.comment p{
+    padding-bottom: 5px;
+}
+
+.likeundervideo button p{
+    padding: 0px 5px;
+}
+
+.likeundervideo button .right{
+    padding-left: 10px;
+}
+
+.likeundervideo{
+    display: flex;
+}
+
+.likeundervideo p{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.answers{
+    display: flex;
+    align-items: center;
+    color: rgb(76, 40, 136);
+    padding-top: 5px;
+    margin-bottom: -10px;
+}
+
+.secondlayout{
+    display: flex;
+}
+
+.videorecomandations{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+.recomandationimg img{
+    width: 170px;
+    height: 100px;
+    border-radius: 15px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.recomandationimg span{
+    position: absolute;
+    margin-left: -113px;
+    margin-top: 40px;
+    visibility: hidden;
+}
+
+.infovidos h4{
+    color: #ccc;
+    font-size: 15px;
+}
+
+.vidos a{
+    display: flex;
+    width: 400px;
+    padding: 20px 0px;
+}
+
+.infovidos p{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.infovidos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recomand{
+    margin-bottom: 50px;
+    background-color: rgb(61, 60, 60);
+    height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+/* .vidos a .recomandationimg span:hover{
+    visibility: visible;
+} */
+
+.vidos1{
+    margin-top: -40px;
+}
+
+.vidos a:hover{
+    background-color: rgb(69, 67, 67);
+    padding: 10px;
+}
+
+.like button span:hover{
+    transform: scale(1.05);
+}
+
+.share:hover , .download:hover , .download:hover , .addtoplaylist:hover{
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width:1200px){
+    .downmenu .videocursor span{
+        width: 1100px;
+    }
+    .moremusic{
+        display: none;
+    }
+    .morevideooptions .addtoplaylist{
+       display: none;
+    }
+    .morevideooptions {
+        margin-right: 100px;
+    }
+    .videoinfo{
+        width: 88%;
+    }
+}
